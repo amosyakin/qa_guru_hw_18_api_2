@@ -6,7 +6,7 @@ from allure_commons.types import AttachmentType
 from jsonschema import validate
 from requests import Response
 
-from schemas.addproducttocart import post_addproducttocart
+from qa_guru_hw_18_api_2.schemas.addproducttocart import post_addproducttocart
 
 
 def add_to_cart_response(url) -> Response:
